@@ -19,6 +19,7 @@ export const router = createBrowserRouter([
       {path: "/contact", element: <Contact />},
       {path: "/trajectory", element: <Trajectory />},
       {path: "/transparency", element: <Transparency />},
+      {path: "/"}
     ],
   },
 

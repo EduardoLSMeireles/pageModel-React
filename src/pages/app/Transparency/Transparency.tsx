@@ -51,8 +51,8 @@ export function Transparency() {
 
           <div className="flex justify-center space-x-4">
             {/* CONTAINER DE DADOS PESSOAIS DO DEPUTADO */}
-            <div className="flex flex-col justify-start items-center w-[199px] h-auto bg-[#4a4a4a] rounded-[10px] p-2">
-              <div className="w-[109px] h-[109px] opacity-50 rounded-full border border-[#6d7984] mb-2 flex justify-center items-center">
+            <div className="flex flex-col justify-start items-center w-[199px] h-auto bg-[white] rounded-[10px] p-2">
+              <div className="w-[109px] h-[109px] opacity-50 rounded-full border border-[black] mb-2 flex justify-center items-center">
                 <img
                   src="https://s3-alpha-sig.figma.com/img/8d2f/ae31/49b03e776da1513a72725c422ad71a6d?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cTMer5AKCYPwL3U5vufMsKqTmOMOOa-ERTdn5wn5eJUZnCJd5XoiH4eDv59ZK~FwbwS-tem-mBo2~dQjZsIy06-Yf8srsW-Dpo1HHnE~FGmqQ6m-PZQSG5nxnfou6XR~ddVz-C3OsI~TmSk7C3uo0oeJGtn~NrvhsbUZocyq3g1rHU4mcMdD--N0KX82-4cRwys2AUkGjf77iK640hR7zjBkOT21M91oudmOa9b8XBAYbvDlgbmxfKBA4pN7DI6FDiWyjlgpjPUkwctoSbsCmXWlXt3ZK4EXIitykMco7~eIoKm~Zo9gC6C5x-keiIV9tW3MKHfzEjZI55OltwtUIg__"
                   className="w-full h-full rounded-full"
@@ -60,16 +60,17 @@ export function Transparency() {
               </div>
 
               {/* PRIMEIRO BLOCO DE INFORMAÇÕES */}
-              <div className="w-[173px] flex flex-col gap-2">
+              <div id="container txt" className="w-[173px] flex flex-col gap-2 mb-2">
                 <div className="flex gap-4">
                   <div>
                     <div className="flex flex-col relative w-[120px]">
                       <div className="absolute opacity-50 text-black text-[6px] font-medium">
                         Nome Civil
                       </div>
-                      <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-                      <div className="absolute left-1 top-1 text-black text-[9px] font-medium whitespace-nowrap">
-                        Arthur Oliveira Maia
+                      <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6 ">
+                        <div className="absolute left-1 top-1 text-black text-[9px] font-medium whitespace-nowrap">
+                          Arthur Oliveira Maia
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -89,7 +90,7 @@ export function Transparency() {
               </div>
 
               {/* SEGUNDO BLOCO DE INFORMAÇÕES */ }
-              <div className="w-[173px] flex flex-col gap-2">
+              <div className="w-[173px] flex flex-col gap-2 mb-2">
                 <div className="flex gap-4">
                   <div>
                     <div className="flex flex-col relative w-[120px]">
@@ -119,7 +120,7 @@ export function Transparency() {
               </div>
 
               {/* TERCEIRO BLOCO DE INFORMAÇÕES */}
-              <div className="w-[173px] flex flex-col gap-2">
+              <div className="w-[173px] flex flex-col gap-2 mb-2">
                 <div className="flex gap-4">
                   <div>
                     <div className="flex flex-col relative w-[120px]">
@@ -148,7 +149,7 @@ export function Transparency() {
               </div>
 
               {/* QUARTO BLOCO DE INFORMAÇÕES */}
-              <div className="w-[173px] flex flex-col gap-2">
+              <div className="w-[173px] flex flex-col gap-2 mb-2">
                 <div className="flex gap-4"> 
                   <div>
                     <div className="flex flex-col relative w-[120px]">
@@ -166,7 +167,7 @@ export function Transparency() {
               </div>
 
               {/* QUINTO BLOCO DE INFORMAÇÕES */}
-              <div className="w-[173px] flex flex-col gap-2">
+              <div className="w-[173px] flex flex-col gap-2 mb-2">
                 <div className="flex gap-4"> 
                   <div>
                     <div className="flex flex-col relative w-[120px]">
@@ -186,9 +187,55 @@ export function Transparency() {
             </div>
 
             {/* CONTAINER DE MANDATOS E ATIVIDADES */}
-            <div className="flex justify-center items-center w-[343px] h-[317px] bg-[#4a4a4a] rounded-[15px] p-2">
-              Container 2
+            <div className="flex justify-center w-[343px] h-[317px] bg-[white] rounded-[15px] p-2">
+              <div className="flex flex-col">
+                <div className="text-black text-[10px] font-bold">
+                  Mandatos na Câmara dos Deputados
+                </div>
+                <div className="text-black text-[8px]">
+                  Deputado(a) Federal - 2011-2015, BA, PMDB, Dt. Posse: 01/02/2011; 
+                  Deputado(a) Federal - 2015-2019, BA, SD, Dt. Posse: 01/02/2015; 
+                  Deputado(a) Federal - 2019-2023, BA, DEM, Dt. Posse: 01/02/2019; 
+                  Deputado(a) Federal - 2023-2027, BA, UNIÃO, Dt. Posse: 01/02/2023.
+                </div>
+
+                <div className="text-black text-[10px] font-bold">
+                Mandatos Externos 
+                </div>
+                <div className="text-black text-[8px]">
+                Vereador(a), Guanambi, BA, Partido: PDC, Período: 1989 a 1991; 
+                Deputado(a) Estadual, BA, Partido: PMDB, Período: 1991 a 1993; 
+                Prefeito(a), Bom Jesus da Lapa, BA, Partido: PMDB, Período: 1993 a 1996; 
+                Deputado(a) Estadual, BA, Partido: PSDB, Período: 1999 a 2003; 
+                Deputado(a) Estadual, BA, Partido: PSDB, Período: 2003 a 2007; 
+                Deputado(a) Estadual, BA, Partido: PSDB, Período: 2007 a 2011.
+                </div>
+                
+                <div className="text-black text-[10px] font-bold">
+                  Atividades Profissionais e Cargos Públicos 
+                </div>
+                <div className="text-black text-[8px]">
+                  Deputado(a) Federal - 2011-2015, BA, PMDB, Dt. Posse: 01/02/2011; 
+                  Deputado(a) Federal - 2015-2019, BA, SD, Dt. Posse: 01/02/2015; 
+                  Deputado(a) Federal - 2019-2023, BA, DEM, Dt. Posse: 01/02/2019; 
+                  Deputado(a) Federal - 2023-2027, BA, UNIÃO, Dt. Posse: 01/02/2023.
+                </div>
+                <div className="text-black text-[10px] font-bold">
+                  Estudos e Cursos Diversos 
+                </div>
+                <div className="text-black text-[8px]">
+                  Direito, Universidade Federal da Bahia, Salvador, BA, 1983 - 1987; 
+                  Direito Econômico, Universidade Federal da Bahia, Salvador, BA, 1999 - 2002 
+                  Gestão Estratégica de Negócios, Pensilvânia University / Walton School,
+                  Filadélfia, 2009.
+                </div>
+
+                <div className="text-black text-[10px] font-bold">
+                  Filiações Partidárias  
+                </div>
+              </div>
             </div>
+            
           </div>
         </div>
       </div>
