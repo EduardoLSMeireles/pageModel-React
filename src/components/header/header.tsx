@@ -1,7 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Separator } from "@radix-ui/react-separator"
-import { Home } from "lucide-react"
-import { Link } from "react-router-dom"
 import { NavLink } from "./nav-link"
 
 export function Header() {

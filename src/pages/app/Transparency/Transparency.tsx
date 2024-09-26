@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Footer } from "@/components/footer/footer";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export function Transparency() {
   return (
@@ -172,11 +174,11 @@ export function Transparency() {
                   <div>
                     <div className="flex flex-col relative w-[120px]">
                       <div className="absolute opacity-50 text-black text-[6px] font-medium">
-                        Cargo político atual  
+                        Salário  
                       </div>
                       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6">
                         <div className="absolute left-1 top-1 text-black text-[9px] font-medium whitespace-nowrap">
-                        Deputado Federal - União Brasil
+                        R$ 30.788,66
                         </div>
                       </div>
                     </div>
@@ -240,64 +242,7 @@ export function Transparency() {
         </div>
       </div>
 
-      <footer className="mt-26 p-20">
-        <div className="flex items-center justify-between px-8 border-b w-full h-[161px] bg-white rounded-[10px]">
-          {/* Esfera 1 - Distribuição de recursos */}
-          <Link to="/distribuicao-recursos" className="flex flex-col items-center text-center">
-            <div className="w-[106px] h-[106px] rounded-full overflow-hidden">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/2beb/46af/fc0fe5e64a810cb5c98f813093e0f30b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iPz4Sq8jMH9mGdn90VrHhYBt34CXhEYMF3scVGIR1tq6B36Vu9k-C-Y1tJaFD0t-JOr5CQGpSYMf6XFc9b1ng0s4JWWeShSGZ2gNkrNhwgTKGGOHi6TcLcmi83oocmCRqW8DT~edmdPqCZzL79TUab8KBz4Ihkybv3oKVpgh7dffJodBk6eeMeyb4yRTkdjjLWNHvpAxk02obz4UrTU9N1Q4GSeoiFpEaWC9KAa18G0ktfslDGtcmZsdaeOWVgNmp--pEGSS8NbBSdDyrv0g-L1l~X-9hAuj0NfNk9Vw-yxN-gHtFoSawBIORQMw5rFmwBjByQRI~JPiWJ8LvMupjA__"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <span className="mt-2 text-sm font-medium">Distribuição de recursos</span>
-          </Link>
-
-          {/* Esfera 2 - Registro de atividades */}
-          <Link to="/registro-atividades" className="flex flex-col items-center text-center">
-            <div className="w-[106px] h-[106px] rounded-full overflow-hidden">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/2beb/46af/fc0fe5e64a810cb5c98f813093e0f30b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iPz4Sq8jMH9mGdn90VrHhYBt34CXhEYMF3scVGIR1tq6B36Vu9k-C-Y1tJaFD0t-JOr5CQGpSYMf6XFc9b1ng0s4JWWeShSGZ2gNkrNhwgTKGGOHi6TcLcmi83oocmCRqW8DT~edmdPqCZzL79TUab8KBz4Ihkybv3oKVpgh7dffJodBk6eeMeyb4yRTkdjjLWNHvpAxk02obz4UrTU9N1Q4GSeoiFpEaWC9KAa18G0ktfslDGtcmZsdaeOWVgNmp--pEGSS8NbBSdDyrv0g-L1l~X-9hAuj0NfNk9Vw-yxN-gHtFoSawBIORQMw5rFmwBjByQRI~JPiWJ8LvMupjA__"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <span className="mt-2 text-sm font-medium">Registro de atividades</span>
-          </Link>
-
-          {/* Esfera 3 - Documentos oficiais */}
-          <Link to="/documentos-oficiais" className="flex flex-col items-center text-center">
-            <div className="w-[106px] h-[106px] rounded-full overflow-hidden">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/2beb/46af/fc0fe5e64a810cb5c98f813093e0f30b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iPz4Sq8jMH9mGdn90VrHhYBt34CXhEYMF3scVGIR1tq6B36Vu9k-C-Y1tJaFD0t-JOr5CQGpSYMf6XFc9b1ng0s4JWWeShSGZ2gNkrNhwgTKGGOHi6TcLcmi83oocmCRqW8DT~edmdPqCZzL79TUab8KBz4Ihkybv3oKVpgh7dffJodBk6eeMeyb4yRTkdjjLWNHvpAxk02obz4UrTU9N1Q4GSeoiFpEaWC9KAa18G0ktfslDGtcmZsdaeOWVgNmp--pEGSS8NbBSdDyrv0g-L1l~X-9hAuj0NfNk9Vw-yxN-gHtFoSawBIORQMw5rFmwBjByQRI~JPiWJ8LvMupjA__"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <span className="mt-2 text-sm font-medium">Documentos oficiais</span>
-          </Link>
-
-          {/* Esfera 4 - Votações e pesquisas */}
-          <Link to="/votacoes-pesquisas" className="flex flex-col items-center text-center">
-            <div className="w-[106px] h-[106px] rounded-full overflow-hidden">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/2beb/46af/fc0fe5e64a810cb5c98f813093e0f30b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iPz4Sq8jMH9mGdn90VrHhYBt34CXhEYMF3scVGIR1tq6B36Vu9k-C-Y1tJaFD0t-JOr5CQGpSYMf6XFc9b1ng0s4JWWeShSGZ2gNkrNhwgTKGGOHi6TcLcmi83oocmCRqW8DT~edmdPqCZzL79TUab8KBz4Ihkybv3oKVpgh7dffJodBk6eeMeyb4yRTkdjjLWNHvpAxk02obz4UrTU9N1Q4GSeoiFpEaWC9KAa18G0ktfslDGtcmZsdaeOWVgNmp--pEGSS8NbBSdDyrv0g-L1l~X-9hAuj0NfNk9Vw-yxN-gHtFoSawBIORQMw5rFmwBjByQRI~JPiWJ8LvMupjA__"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <span className="mt-2 text-sm font-medium">Votações e pesquisas</span>
-          </Link>
-
-          {/* Esfera 5 - Sistema de doações */}
-          <Link to="/sistema-doacoes" className="flex flex-col items-center text-center">
-            <div className="w-[106px] h-[106px] rounded-full overflow-hidden">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/2beb/46af/fc0fe5e64a810cb5c98f813093e0f30b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iPz4Sq8jMH9mGdn90VrHhYBt34CXhEYMF3scVGIR1tq6B36Vu9k-C-Y1tJaFD0t-JOr5CQGpSYMf6XFc9b1ng0s4JWWeShSGZ2gNkrNhwgTKGGOHi6TcLcmi83oocmCRqW8DT~edmdPqCZzL79TUab8KBz4Ihkybv3oKVpgh7dffJodBk6eeMeyb4yRTkdjjLWNHvpAxk02obz4UrTU9N1Q4GSeoiFpEaWC9KAa18G0ktfslDGtcmZsdaeOWVgNmp--pEGSS8NbBSdDyrv0g-L1l~X-9hAuj0NfNk9Vw-yxN-gHtFoSawBIORQMw5rFmwBjByQRI~JPiWJ8LvMupjA__"
-                className="object-cover w-full h-full"
-              />
-            </div>
-            <span className="mt-2 text-sm font-medium">Sistema de doações</span>
-          </Link>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

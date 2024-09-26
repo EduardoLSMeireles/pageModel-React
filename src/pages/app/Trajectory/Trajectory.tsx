@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async"
 export function Trajectory(){
   return (
     <>
-      <Helmet title="Schedule" />
+      <Helmet title="Trajectory" />
       <div>Trajectory Page</div>
     </>
   )
