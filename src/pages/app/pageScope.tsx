@@ -1,67 +1,47 @@
-  //   {/* Naturalidade */}
-  //   <div className="flex flex-col relative w-[85px]">
-  //     <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Naturalidade</div>
-  //     <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //     <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">Salvador</div>
-  //   </div>
-  // </div> */}
+<div className='status-container'>
+<h1>Juntos, seguiremos em frente!</h1>
+<h2>Todos merecem crescer e prosperar e, com a força do nosso trabalho, construiremos o Estado que tanto sonhamos.</h2>
+<div className='retangle-container'>
+  <div >
+    <a>4,680
+    Projetos de Resolução </a>
+  </div>
+  <div >
+    <a>304 
+    Requerimentos  
+    </a>
+  </div>
+  <div >
+    <a>102 
+    Leis Ordinárias 
+    </a>
+  </div>
+  <div >
+    <a>223 
+    Indicações 
+    </a>
+  </div>
+</div>
+</div>
 
+// .status-container {
+//   display: c;
+//   place-items: center;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 100%;
 
-  //                     {/* Formação */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Formação</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">Direito</div>
-  //     </div>
+//   color: $color-primary;
+//   border-radius: 10px;
+//   background-color: $color-statusBar;
 
+//   .retangle-container {
+//     display: inline-flex;
 
-
-      
-  //     {/* Cargo político atual */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Cargo político atual</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">Deputado Federal - União Brasil</div>
-  //     </div>
-
-
-
-
-
-  //     {/* Salário */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Salário</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">R$ 30.788,66</div>
-  //     </div>
-
-
-
-  //     {/* Nascimento */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Nascimento</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">17/08/1964</div>
-  //     </div>
-
-
-  //     {/* UF */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">UF</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">BA</div>
-  //     </div>
-
-
-
-
-  //     {/* Escolaridade */}
-  //     <div className="relative">
-  //       <div className="absolute opacity-50 text-black text-[6px] font-medium font-['Inter']">Escolaridade</div>
-  //       <div className="bg-white rounded-[5px] border border-[#c2c7cd]/20 h-6" />
-  //       <div className="absolute left-1 top-1 text-black text-[10px] font-medium font-['Inter']">Mestrado</div>
-  //     </div>
-
-
-
-
+//     align-items: flex-end;
+//     justify-content: center;
+//     font-size: 30px;
+//     font-weight: 800;
+//     line-height: 5;
+//     gap: 200px;
