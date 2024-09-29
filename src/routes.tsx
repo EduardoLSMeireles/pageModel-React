@@ -11,10 +11,11 @@ import { Contact } from "./pages/app/Contact/Contat"
 import { Trajectory } from "./pages/app/Trajectory/Trajectory"
 import { Transparency } from "./pages/app/Transparency/Transparency"
 import { DistribuicaoRecursos } from "./pages/app/DistribuicaoRecursos.tsx/DistribuicaoRecursos"
-import { RegistroAtividades } from "./pages/app/RegistroAtividades/RegistroAtividades"
 import { DocumentosOficiais } from "./pages/app/DocumentosOficiais/DocumentosOficiais"
-import { VotacoesPesquisas } from "./pages/app/VoacoesPesquisas/VoacoesPesquisas"
+import { VotacoesPesquisas } from "./pages/app/VotacoesPesquisas/VotacoesPesquisas"
 import { SistemaDoacoes } from "./pages/app/SistemaDoacoes/SistemaDoacoes"
+import { RegistroAtividades } from './pages/app/RegistroAtividades/RegistroAtividades'
+
 
 // Imports do footer
 
