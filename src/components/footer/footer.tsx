@@ -2,7 +2,7 @@ import { NavLink } from "./footer-link";
 
 export function Footer() {
   return (
-    <footer className="mt-26 p-20">
+    <footer className="mt-25 p-6 bg-white rounded-[10px] transform-translate-y-[80px] flex items-center">
       <nav className="flex items-center justify-between px-8 border-b w-full h-[161px] bg-white rounded-[10px]">
         {/* Esfera 1 - Distribuição de recursos */}
         <NavLink to="/distribuicao-recursos" className="flex flex-col items-center text-center">

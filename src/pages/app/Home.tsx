@@ -12,8 +12,8 @@ export function Home() {
 
       <div className="relative w-full mb-6">
         <img 
-          className="w-full h-[479px] object-cover"
-          src="/mnt/data/A_high-resolution_image_of_the_Bahia_flag,_fully_s.png"
+          className="w-full h-[479px] object-cover bg-gray-500"
+          src="link da imagem"
         />
         
         <div 

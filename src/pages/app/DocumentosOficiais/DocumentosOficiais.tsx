@@ -30,7 +30,7 @@ export function DocumentosOficiais(){
             {Array.from({ length: 5 }).map((_, index) => (
               <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
                 <div className="p-3">
-                  <Card className="bg-[#4a4a4a]">
+                  <Card className="bg-[#03153b5e]">
                     <CardContent className="flex aspect-square items-center justify-center p-6">
                       <span className="text-2xl font-semibold">conteúdo {index + 1}</span>
                     </CardContent>
@@ -47,41 +47,41 @@ export function DocumentosOficiais(){
       {/* Conteúdo da primeira box */}
       <div className="flex flex-wrap mb-5">
         <div id="firstBox" className="flex items-center space-x-4 mb-5 p-10">
-          <div className="w-[343px] h-[318px] bg-[#4a4a4a] rounded-[15px] flex justify-center items-center">
+          <div className="w-[343px] h-[318px] bg-[#03153b5e] rounded-[15px] flex justify-center items-center">
             <ImagePlus className="w-[70px] h-[69px]" />
           </div>
 
 
           <div className="space-y-6">
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
-                <span>content message user</span> 
-              </div>
-            </div>
-
-            <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
 
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+                <span>content message user</span> 
+              </div>
+            </div>
+
+            <div>
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
@@ -94,41 +94,41 @@ export function DocumentosOficiais(){
           <div id="secondBox" className="flex items-center space-x-4 mb-5 p-10 ml-auto">
             <div className="space-y-6">
               <div>
-                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                   <span>content message user</span>
                 </div>
               </div>
 
               <div>
-                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                   <span>content message user</span>
                 </div>
               </div>
               <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
             <div>
-              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+              <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                 <span>content message user</span> 
               </div>
             </div>
 
               <div>
-                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#4a4a4a] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
+                <div className="text-center w-[645px] h-5 bg-gradient-to-r from-[#90878732] via-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">
                   <span>content message user</span>
                 </div>
               </div>
             </div>
 
             {/* Container cinza maior à direita */}
-            <div className="w-[343px] h-[318px] bg-[#4a4a4a] rounded-[15px] flex justify-center items-center">
+            <div className="w-[343px] h-[318px] bg-[#03153b5e] rounded-[15px] flex justify-center items-center">
               <ImagePlus className="w-[70px] h-[69px]" />
             </div>
           </div>

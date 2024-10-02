@@ -54,11 +54,11 @@ export function Transparency() { return (
             <div className="flex justify-center space-x-4">
                 {/* CONTAINER DE DADOS PESSOAIS DO DEPUTADO */}
                 <div className="flex flex-col justify-start items-center border w-[230px] h-auto rounded-[10px] p-2">
-                    <div className="w-[109px] h-[109px] opacity-50 rounded-full border border-[#c4c4c4] flex justify-center items-center mb-4">
+                    <div className="w-[110px] h-[110px] rounded-full border border-[#c4c4c4] flex justify-center items-center mb-4">
                         <div className="w-[99.84px] h-[100px] bg-[#c4c4c4] rounded-full">
                             <img
                                 src="https://s3-alpha-sig.figma.com/img/8d2f/ae31/49b03e776da1513a72725c422ad71a6d?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cTMer5AKCYPwL3U5vufMsKqTmOMOOa-ERTdn5wn5eJUZnCJd5XoiH4eDv59ZK~FwbwS-tem-mBo2~dQjZsIy06-Yf8srsW-Dpo1HHnE~FGmqQ6m-PZQSG5nxnfou6XR~ddVz-C3OsI~TmSk7C3uo0oeJGtn~NrvhsbUZocyq3g1rHU4mcMdD--N0KX82-4cRwys2AUkGjf77iK640hR7zjBkOT21M91oudmOa9b8XBAYbvDlgbmxfKBA4pN7DI6FDiWyjlgpjPUkwctoSbsCmXWlXt3ZK4EXIitykMco7~eIoKm~Zo9gC6C5x-keiIV9tW3MKHfzEjZI55OltwtUIg__" 
-                                className="w-[99.84px] h-[100px] bg-[#c4c4c4] rounded-full" 
+                                className="w-full h-[100px] bg-[#c4c4c4] object-cover rounded-full" 
                             />
                         </div>
                     </div>
