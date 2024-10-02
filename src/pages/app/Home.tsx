@@ -1,8 +1,9 @@
+import { Count } from "@/components/count/count"
 import { Helmet } from "react-helmet-async"
-
 export function Home() {
+
   return (
-    <div className="flex flex-col">
+    <div className="relative flex-col">
       <Helmet title="Home" />
       <div className="flex flex-col items-center justify-center text-justify w-full">
         <p className="opacity-50 text-sm font-medium">Deputado Federal</p> {/* Maior espaçamento entre os textos */}
@@ -26,8 +27,8 @@ export function Home() {
         </div>
       </div>
 
+      <div className="w-full h-56 bg-[#17176a] rounded-[10px] gap-2 flex flex-col items-center justify-start" >
 
-      <div className="w-full h-56 bg-[#17176a] rounded-[10px] gap-2 flex flex-col items-center justify-start p-4 pt-6">
         <div className="text-[#edeaeaf1] text-3xl font-extrabold text-center mt-2"> {/* Maior espaçamento no topo */}
           Juntos, seguiremos em frente!
         </div>
@@ -38,7 +39,7 @@ export function Home() {
         <div className="flex flex-1 flex-row justify-start items-center gap-[100px] mt-10"> {/* Dados mais para baixo */}
           <div className="flex flex-col items-center">
             <div className="w-[92px] text-[#fdfdfd] text-3xl font-extrabold">
-              4,680
+            <Count endValue={4608} duration={3000}/>
             </div>
             <div className="w-20 text-[#fdfdfd] text-sm font-normal">
               Indicações
@@ -47,7 +48,7 @@ export function Home() {
 
           <div className="flex flex-col items-center">
             <div className="w-[92px] text-[#fdfdfd] text-3xl font-extrabold">
-              304
+            <Count endValue={304} duration={3000}/>
             </div>
             <div className="w-[99px] text-[#fdfdfd] text-sm font-normal">
               Leis Ordinárias
@@ -56,7 +57,7 @@ export function Home() {
 
           <div className="flex flex-col items-center">
             <div className="w-[92px] text-[#fdfdfd] text-3xl font-extrabold">
-              102
+              <Count endValue={102} duration={3000}/>
             </div>
             <div className="w-[109px] text-[#fdfdfd] text-sm font-normal">
               Requerimento
@@ -64,9 +65,7 @@ export function Home() {
           </div>
 
           <div className="flex flex-col items-center">
-            <div className="w-[92px] text-[#fdfdfd] text-3xl font-extrabold">
-              223
-            </div>
+            <Count endValue={223} duration={3000}/>
             <div className="w-[165px] text-[#fdfdfd] text-sm font-normal">
               Projetos de Resolução
             </div>
