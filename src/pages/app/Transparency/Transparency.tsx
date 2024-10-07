@@ -21,13 +21,13 @@ export function Transparency() { return (
             {/* Container da Imagem */}
             <div className="flex items-end">
                 <img
-                src="https://s3-alpha-sig.figma.com/img/12e1/35f7/a27b8782871b7082d7ad4731ab51da7b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZV60Ipx1Kf7NinqSx7lqIX57nOtA3CTXIK71IXqg9TU4JRN94ihKx2xAEPTlKhdPmBOgZYeiUaKA1zDJlFaaP~RwkidqGlIfQfT1t4u38IU6~0nxRU9cYJ93XSctNeyy6flgDuioaoQ4EWC7Ce3c4mnebsVqiDoc58Uu4aYCFq4IXiidWO2lD~MOiau7b6OGoK-jgfaAnBGD79pzoHKNKPrEVyglvU7gbtg~NVGoQhHzrjQpkdrB0gKk3kEoMifZ8yMVNTbtedz35ELw~eI7g14iUk0fOHDx6JBvy13B4bric16o12rV2jLXROB8RgZnCn8jZzEv6HDc8XqnEuzWgw__"
+                src="https://s3-alpha-sig.figma.com/img/12e1/35f7/a27b8782871b7082d7ad4731ab51da7b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fCDiD~ap19rb42zJFM-ij9B7QoGf-7AzEC-7cFOVBtjrgVBOST7ktY2l0~26F1YxB3sKHul6uF~~Kr4CdjhNtP-UU1dnWa4GU2rxsPmKMUz8J2JdzM0lRp-YQdViHzpUiYcHjcnZgvdgk5GZOKTAo4SnjP3Bt0o5mnEAKXy6Zoih9ILTmLJp2yzcaGwraORxUEJYC1hdtfBjKRQ0pYpV45pXTLTuDB9FFMeQPJNrU3~rFlqZ8yY1sjT~FWty9LdsvVki0aClSSd3yOwpUs1xdvIagAIvsJy8HOODlpXLlqEhgZmI1wiWedTnFOkmiZeFv7-lcVpZsolK9UFHvIvzCg__"
                 className="w-full h-[332px] object-cover rounded-bl-[24px]"
                 />
             </div>
 
             {/* DIV 1 */}
-            <div className="flex flex-col justify-center p-8">
+            <div className="relative flex flex-col justify-center p-8">
                 <h1 className="text-xl font-bold tracking-tight">
                 Nosso trabalho é guiado pelas necessidades do povo baiano,
                 </h1>

@@ -1,4 +1,6 @@
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet-async"
+import { BrazilianMap } from '../../../components/images/brazilianMap'
+import { MiniBox } from "@/components/miniBox/miniBox";
 export function DistribuicaoRecursos() {
   return (
     <div>
@@ -8,28 +10,19 @@ export function DistribuicaoRecursos() {
         <p className="opacity-50 text-black text-xs font-medium">Navegue por região e fique por dentro dos investimentos
         feitos em seu município.</p>
       </div>
-
       <div className="w-full h-[700px] bg-gray-400 mb-6 p-6 flex items-center justify-center">
-        {/* Imagem do mapa do Brasil */}
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH0tJcTudE08J6nAd2AMM921GdepBX0CWCgyUYMQBpAw5rb-zHpcdmHF-vTdT0lS3Ue2g&usqp=CAU" className="max-h-full max-w-full object-contain" />
-      </div>
+  {/* Imagem do mapa do Brasil */}
+  <div className="grid items-center justify-center w-auto h-auto max-w-[800px] transition-transform transform hover:scale-105 -translate-y-1/1">
+    <BrazilianMap />
+  </div>
+</div>
+
+
 
       <footer className="flex flex-col items-center p-6 mb-6">
         <div className="text-black text-lg font-bold mb-4">Área Beneficiada</div>
         <div className="flex flex-col items-center space-y-4">
-          {/* Contêiner superior */}
-          <div className="flex flex-wrap justify-center space-x-4">
-            {[...Array(8)].map((_, index) => (
-              <div key={index} className="w-[130px] h-[172px] bg-gray-300 rounded-lg shadow-md"></div>
-            ))}
-          </div>
-
-          {/* Contêiner inferior */}
-          <div className="flex flex-wrap justify-center space-x-4">
-            {[...Array(8)].map((_, index) => (
-              <div key={index + 8} className="w-[130px] h-[172px] bg-gray-300 rounded-lg shadow-md"></div>
-            ))}
-          </div>
+          <MiniBox />
         </div>
       </footer>
     </div>
