@@ -1,44 +1,39 @@
+import * as React from "react"
 
-export function VotacoesPesquisas(){
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { Urna } from "@/components/urna/urna"
+
+export function VotacoesPesquisas() {
   return (
-    <div className="grid grid-cols-3 gap-4 p-4 bg-[#ffffff]">
-      {/* <!-- Primeiro Grid --> */}
-      <div className="grid  p-4 rounded-[10px]">
-        {/* <!-- Conteúdo do grid --> */}
-        <div className="w-[325px] h-9 bg-[#4a4a4a] rounded-[20px]"></div>
-        {/* <!-- Linhas de texto opcionais --> */}
-        <div className="grid gap-2 mt-4 w-[336px] h-2.5">
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 1</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 2</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 3</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 4</p>
-        </div>
+    <div>
+      <div>
+      <Carousel className="flex flex-col w-[] h-auto ">
+      <CarouselContent className="-ml-1">
+        {Array.from({ length: 5 }).map((_, index) => (
+          <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
+            <div className="p-3">
+              <Card className="bg-[#03153b5e]">
+                <CardContent className="flex aspect-square items-center justify-center p-6">
+                  <span className="text-2xl font-semibold">conteúdo {index + 1}</span>
+                </CardContent>
+              </Card>
+            </div>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+        <CarouselPrevious className="absolute top-1/2 left-4 transform -translate-y-1/2" />
+        <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2" />
+      </Carousel>
       </div>
-
-      {/* <!-- Segundo Grid --> */}
-      <div className="grid bg-[#ffffff] p-4 rounded-[10px]">
-        {/* <!-- Conteúdo do grid --> */}
-        <div className="w-[325px] h-9 bg-[#4a4a4a] rounded-[20px]"></div>
-        {/* <!-- Linhas de texto opcionais --> */}
-        <div className="grid gap-2 mt-4 w-[336px] h-2.5">
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 1</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 2</p> 
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 3</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 4</p>
-        </div>
-      </div>
-
-      {/* <!-- Terceiro Grid --> */}
-      <div className="grid bg-[#ffffff] p-4 rounded-[10px]">
-        {/* <!-- Conteúdo do grid --> */}
-        <div className="w-[325px] h-9 bg-[#4a4a4a] rounded-[20px]"></div>
-        {/* <!-- Linhas de texto opcionais --> */}
-        <div className="grid gap-2 mt-4 w-[336px] h-2.5">
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 1</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 2</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 3</p>
-          <p className="text-center bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[20px]">Optional text 4</p>
-        </div>
+      <div className="flex items-center justify-center min-h-screen">
+        <Urna />
       </div>
     </div>
   )

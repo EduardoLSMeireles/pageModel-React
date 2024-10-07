@@ -1,4 +1,3 @@
-import { MiniBox } from "@/components/miniBox/miniBox"
 import { Helmet } from "react-helmet-async"
 
 export function Trajectory(){
@@ -6,7 +5,7 @@ export function Trajectory(){
     <div>
       <Helmet title="Trajectory" />
       <div>
-        <MiniBox />
+        trajectory page
       </div>
     </div>
   )
