@@ -1,13 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */ 
 import { Footer } from "@/components/footer/footer"; 
+import { IPad } from "@/components/iPad/iPad";
 import { Helmet } from "react-helmet-async"; 
 import { Link, NavLink } from "react-router-dom"; 
 
 export function Transparency() { return (
 <div>
-    <header className="flex justify-center p-2">
+    <header className="grid justify-center p-2">
         <Helmet title="Portal da Transparência" />
-        <div className="flex flex-col items-center gap-4">
+        <div className="grid cols-auto items-center gap-4">
             <h1 className="text-3xl font-bold tracking-tight">Portal da Transparência</h1>
             <h2 className="opacity-50 text-base font-medium tracking-tight">
             Dep. Federal Arthur Oliveira Maia
@@ -15,35 +16,14 @@ export function Transparency() { return (
         </div>
     </header>
 
-    <div className="flex gap-36 p-16">
+    <div className="flex justify-between p-20 w-full mb-4">
         {/* CONTEÚDO 1 */}
-        <div className="grid grid-cols-[187px_1fr] w-[662px] h-[461px] gap-1 rounded-[34px] border-8 border-[#313131] shadow-lg">
-            {/* Container da Imagem */}
-            <div className="flex items-end">
-                <img
-                src="https://s3-alpha-sig.figma.com/img/12e1/35f7/a27b8782871b7082d7ad4731ab51da7b?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fCDiD~ap19rb42zJFM-ij9B7QoGf-7AzEC-7cFOVBtjrgVBOST7ktY2l0~26F1YxB3sKHul6uF~~Kr4CdjhNtP-UU1dnWa4GU2rxsPmKMUz8J2JdzM0lRp-YQdViHzpUiYcHjcnZgvdgk5GZOKTAo4SnjP3Bt0o5mnEAKXy6Zoih9ILTmLJp2yzcaGwraORxUEJYC1hdtfBjKRQ0pYpV45pXTLTuDB9FFMeQPJNrU3~rFlqZ8yY1sjT~FWty9LdsvVki0aClSSd3yOwpUs1xdvIagAIvsJy8HOODlpXLlqEhgZmI1wiWedTnFOkmiZeFv7-lcVpZsolK9UFHvIvzCg__"
-                className="w-full h-[332px] object-cover rounded-bl-[24px]"
-                />
-            </div>
-
-            {/* DIV 1 */}
-            <div className="relative flex flex-col justify-center p-8">
-                <h1 className="text-xl font-bold tracking-tight">
-                Nosso trabalho é guiado pelas necessidades do povo baiano,
-                </h1>
-                <h2>
-                com a transparência na destinação dos recursos como nosso principal
-                objetivo. Aqui, você acompanha de perto como estamos empenhados em
-                garantir que nossos municípios recebam recursos para melhorias em diversos
-                setores. Além de prestar contas, este ambiente foi criado para que você
-                possa acompanhar conosco as mudanças essenciais no nosso estado.
-                </h2>
-            </div>
-            </div>
-
+        <div className="flex flex-shrink">
+            <IPad />
+        </div>
 
         {/* CONTEÚDO 2 */}
-        <div className="flex flex-col gap-3 ml-20">
+        <div className="flex flex-col gap-3 ml-20 ">
             <div className="flex text-black text-3xl font-bold">
                 Informações públicas do parlamentar
             </div>

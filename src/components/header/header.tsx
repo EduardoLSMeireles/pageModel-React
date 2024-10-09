@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 import { Separator } from "@radix-ui/react-separator"
 import { NavLink } from "./nav-link"
 
@@ -10,7 +10,7 @@ export function Header() {
           {/* icone esquerda */}
           <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-200">
             <img 
-              src="https://s3-alpha-sig.figma.com/img/9b13/7865/732dcf75e1f4ec803b085daf7870a665?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nYxUEx6CTyCax76kr96J9kBXRGP5TyIgZD4Qs7AeuAiE1wl5IdfY~CkScuPqRzSj63dwyhzaIZtKLgFEHhK8ViFYYtBrlTnQWWR-~4vyiRrOGJRZP89TJOILayzQFxhy63EzZ-pxS3sFWKwa2lSkTAJ3iAS4zf0niyWfq-nZr74gI1nrd~ydoI0Dn58C0dpPFRqMisq6VHS~nplUoksDeuz2guzBtBHJ6Ns7dOYEOTrZdIOOFs4kFFegHH2-Nl4tITJQk0DyhTe9LUuP9MMjyjsd0wLcntriq6nAt537UmlqDe6TjfnjSDIy9JoMVJLwNLjIZYYcIk9JNDGY8azqWg__"
+              src="https://s3-alpha-sig.figma.com/img/9b13/7865/732dcf75e1f4ec803b085daf7870a665?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jFH6tU20u7dIC4UUlhDqznXS8Rd4fz0UcYjXqwI0XVOesJ7kwphLP9XLpfihCDCoS7IrOrqxzKC24ArabtmcUS2MBQU8v7udVPYpzG5j9sWC2N5t5utochPprLEBXVopBuIYFZyWqYSjdkm4esLIdJ~kZxjb7d2SIVozFPawFwpvMwrbCgkIFjeKKETgmDi0aVdF2NZRuZsh8FwioPKu~Kt0QTM8KH9DLEdstlrUDvWJ1fpKaLVMtk913vEnxOHexsKxxxVovKIB4ZXCXoyCCPhBMNhBbgTAZfbHDW8-4SiEKbqvdb5l0nnOC9wo6oMQ4TA8zObWbiV5tHowRYfi9w__"
               className="object-cover w-full h-full"
             />
           </div>

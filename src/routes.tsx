@@ -7,7 +7,7 @@ import { AuthLayout } from "./pages/_layouts/auth"
 // Imports do header
 import { Home } from "./pages/app/Home"
 import { Schedule } from "./pages/app/Schedule/Schedule"
-import { Contact } from "./pages/app/Contact/Contat"
+import { Contact } from "./pages/app/Contact/Contact"
 import { Trajectory } from "./pages/app/Trajectory/Trajectory"
 import { Transparency } from "./pages/app/Transparency/Transparency"
 import { DistribuicaoRecursos } from "./pages/app/DistribuicaoRecursos.tsx/DistribuicaoRecursos"
