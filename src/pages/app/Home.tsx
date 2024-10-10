@@ -60,7 +60,7 @@ export function Home() {
                 <Count endValue={102} duration={3000}/>
               </div>
               <div className="w-[109px] text-[#fdfdfd] text-sm font-normal">
-                Requerimento
+                Requerimentos
               </div>
             </div>
 

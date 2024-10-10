@@ -59,8 +59,6 @@ export function SistemaDoacoes() {
                 </div>
 
 
-
-
                 <div className="grid grid-cols-1 w-full h-full justify-start items-center gap-4">
                   <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
                   <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
@@ -79,7 +77,6 @@ export function SistemaDoacoes() {
                   <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
                   <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
                 </div>
-
               </div>
 
               <div className="grid grid-cols-2 w-full gap-2 p-2 sm:w-1/1 lg:w-1/1 mt-52">
