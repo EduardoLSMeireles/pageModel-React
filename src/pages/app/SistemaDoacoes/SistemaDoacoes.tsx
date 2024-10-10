@@ -6,7 +6,7 @@ export function SistemaDoacoes() {
     <div className="h-full">
       <Helmet title="SistemaDoacoes" />
       <header className="grid justify-center p-2">
-        <div className="grid grid-cols items-center gap-4">
+        <div className="items-center gap-4">
 
           <h1 className="text-3xl font-bold tracking-tight">
             Sistemas de doações
@@ -18,14 +18,13 @@ export function SistemaDoacoes() {
         </div>
       </header>
 
-      <div className="w-full h-auto mt-20">
+      <div className="w-screen h-screen mt-20">
         <div 
           className="relative w-full h-[479px] bg-cover bg-center flex items-center justify-center bg-[#4a4a4a]" 
           style={{ backgroundImage: "link-da-imagem" }} 
           >
           <div className="w-[420px] h-[550px] bg-[#c4c4c4] rounded-sm grid cols-auto translate-y-[-35px] items-center justify-center">
             <p></p>
-            <img src="..." />
           </div>
           <div className="grid absolute justify-self-center bottom-[-80px] w-[1200px] h-[160px] bg-white rounded-[8px] transform-translate-y-[80px] items-center space-x-6 p-4">
             <div className="w-full">
@@ -40,45 +39,45 @@ export function SistemaDoacoes() {
               </div>
 
               <div className="absolute right-6 top-1/2 transform -translate-y-1/2 p-6 w-[336px] h-5 bg-gradient-to-r from-[#4a4a4a] to-[#b0b0b0] rounded-[10px]">
-              soi
+                <div>
+                  
+                </div>
               </div>
             </div>
             <div className="mt-20">
-              <h2 className="text-3xl font-bold text-center my-8 tracking-wide">
-                
-              </h2>
-              <div className="grid grid-cols-3 w-full gap-4 p-2 sm:w-1/1 lg:w-1/1 ">  
-                <div className="w-[330px] h-[400px] ">
-                  <div className="grid grid-cols-1 w-full h-full text-center">
-                    <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                  </div>
+              <h1 className="opacity-50 text-3xl font-bold text-center my-8 tracking-wide">
+                Titulo das informações
+              </h1>
+              <div className="grid grid-cols-3 w-full gap-4 p-2 sm:w-1/1 lg:w-1/1">  
+                <div className="grid grid-cols-1 w-full h-full justify-start items-center gap-4">
+                  <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
                 </div>
 
-                <div className="w-[330px] h-[400px] ">
-                  <div className="grid grid-cols-1 w-full h-full text-center gap-1">
-                    <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                  </div>
+
+
+
+                <div className="grid grid-cols-1 w-full h-full justify-start items-center gap-4">
+                  <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
                 </div>
 
-                <div className="w-[330px] h-[400px] ">
-                  <div className="grid grid-cols-1 w-full h-full text-center">
-                    <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                    <p className="w-[300px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
-                  </div>
+
+                <div className="grid grid-cols-1 w-full h-full justify-start items-center gap-4">
+                  <p className="w-[330px] h-9 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
+                  <p className="w-[330px] h-2.5 bg-[#4a4a4a] rounded-[20px]"></p>
                 </div>
 
               </div>

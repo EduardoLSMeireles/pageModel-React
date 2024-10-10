@@ -2,7 +2,6 @@
 import { Footer } from "@/components/footer/footer"; 
 import { IPad } from "@/components/iPad/iPad";
 import { Helmet } from "react-helmet-async"; 
-import { Link, NavLink } from "react-router-dom"; 
 
 export function Transparency() { return (
 <div>
@@ -16,14 +15,14 @@ export function Transparency() { return (
         </div>
     </header>
 
-    <div className="flex justify-between p-20 w-full mb-4">
+    <div className="flex justify-between p-14 w-full mb-4">
         {/* CONTEÚDO 1 */}
         <div className="flex flex-shrink">
             <IPad />
         </div>
 
         {/* CONTEÚDO 2 */}
-        <div className="flex flex-col gap-3 ml-20 ">
+        <div className="flex flex-col gap-3 ml-20">
             <div className="flex text-black text-3xl font-bold">
                 Informações públicas do parlamentar
             </div>
