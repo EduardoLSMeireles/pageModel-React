@@ -36,7 +36,7 @@ export function Transparency() { return (
                     <div className="w-[110px] h-[110px] rounded-full border border-[#c4c4c4] flex justify-center items-center mb-4">
                         <div className="w-[99.84px] h-[100px] bg-[#c4c4c4] rounded-full">
                             <img
-                                src="https://s3-alpha-sig.figma.com/img/8d2f/ae31/49b03e776da1513a72725c422ad71a6d?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cTMer5AKCYPwL3U5vufMsKqTmOMOOa-ERTdn5wn5eJUZnCJd5XoiH4eDv59ZK~FwbwS-tem-mBo2~dQjZsIy06-Yf8srsW-Dpo1HHnE~FGmqQ6m-PZQSG5nxnfou6XR~ddVz-C3OsI~TmSk7C3uo0oeJGtn~NrvhsbUZocyq3g1rHU4mcMdD--N0KX82-4cRwys2AUkGjf77iK640hR7zjBkOT21M91oudmOa9b8XBAYbvDlgbmxfKBA4pN7DI6FDiWyjlgpjPUkwctoSbsCmXWlXt3ZK4EXIitykMco7~eIoKm~Zo9gC6C5x-keiIV9tW3MKHfzEjZI55OltwtUIg__" 
+                                src="https://s3-alpha-sig.figma.com/img/8d2f/ae31/49b03e776da1513a72725c422ad71a6d?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FZSRu8Ii3gd86Gz6KPfMSAX9OzFjS7tDqBkoHG90Qfd69ElJX9tGbQ8jIn9BZgvhhT6zSETdkUB--0zqbevzxPjLXDJDjDBIutdOWAL8Qy5oLAe2W2FpY-q~eR~kpPmM46zHY8UuzWamNx6yZ~~yXSwkmRDKJUwqrzqUf86iG-d8EmXjEhv~C4A-D0TuBcLmIp4FsMfo7X1ZJkzJEuDueM~IwZpsnV2Kxc6zzvj40Nyr~C4NmyomLFZ-ZDo~wZZHZuQVQ2GWPfIjXnUGxZHz5a~JhHe9~CF73478KbxPNKtrb~AWj77ShS2uur1v65bearAZAXYlBYc5rtCH-67-~w__" 
                                 className="w-full h-[100px] bg-[#c4c4c4] object-cover rounded-full" 
                             />
                         </div>
